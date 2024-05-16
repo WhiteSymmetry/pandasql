@@ -1,5 +1,6 @@
-pandasql
+pandasql-lts
 ========
+This repository aims to maintain [original pandasql](https://github.com/yhat/pandasql). All credit goes to [yhat](https://github.com/yhat).
 
 `pandasql` allows you to query `pandas` DataFrames using SQL syntax. It works 
 similarly to `sqldf` in R. `pandasql` seeks to provide a more familiar way of 
@@ -7,7 +8,7 @@ manipulating and cleaning data for people new to Python or `pandas`.
 
 #### Installation
 ```
-$ pip install -U pandasql
+$ pip install -U pandasql-lts
 ```
 
 #### Basics
@@ -76,8 +77,8 @@ joins and aggregations are also supported
 4  1948        8766
 ```
 
-More information and code samples available in the [examples](https://github.com/yhat/pandasql/blob/master/examples/demo.py)
- folder or on [our blog](http://blog.yhathq.com/posts/pandasql-sql-for-pandas-dataframes.html).
+More information and code samples available in the [examples](./examples/)
+ folder or on [yhat's blog](http://blog.yhathq.com/posts/pandasql-sql-for-pandas-dataframes.html).
 
 
 
