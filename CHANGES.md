@@ -1,3 +1,7 @@
+0.7.3
+=====
+- Something done by the authors
+
 0.7.0 (fork)
 ============
 - use SQLAlchemy and support Postgres (other engines can easily be added)
