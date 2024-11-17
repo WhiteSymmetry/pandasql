@@ -48,7 +48,7 @@ joins and aggregations are also supported
 >>> q = """SELECT
         m.date, m.beef, b.births
      FROM
-        meats m
+        meat m
      INNER JOIN
         births b
            ON m.date = b.date;"""
@@ -61,13 +61,13 @@ joins and aggregations are also supported
 406  2012-10-01 00:00:00  2343.7  347625
 407  2012-11-01 00:00:00  2206.6  320195
 
->>> q = "select
+>>> q = """select
            strftime('%Y', date) as year
            , SUM(beef) as beef_total
            FROM
               meat
            GROUP BY
-              year;"
+              year;"""
 >>> print pysqldf(q).head()
    year  beef_total
 0  1944        8801
